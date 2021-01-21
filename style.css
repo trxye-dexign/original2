@@ -1,0 +1,188 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear: left;
+}
+.container {
+	margin:0 auto;
+	width:1250px;
+}
+.top-wrapper {
+	height: 710px;
+	margin-bottom: 250px;
+	width:100%;
+}
+.top-wrapper-image {
+	height:710px;
+	background-image: url(beers-1283566_1280.jpg);
+  margin-left: 25%;
+  background-size: cover;
+	border-bottom-left-radius: 100px;
+	position: relative;
+}
+.absolute {
+	position:absolute;
+	top:10px;
+	left: 90px;
+}
+li,a {
+	text-decoration: none;
+	list-style: none;
+}
+.menu-wrapper a {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	display: inline-block;
+	letter-spacing: 0.06em;
+	font-weight: 600;
+	transition: all .3s;
+	margin-bottom: 20px;
+}
+.menu-wrapper a:hover {
+	opacity: 0.5;
+}
+#logo a {
+	color:white;
+	background-color: black;
+	padding:10px 20px;
+	border-radius: 7px;
+	font-size: 65px;
+	font-family: 'Catamaran', sans-serif;
+}
+#logo {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.top-wrapper-bottom {
+	margin-top:85px;
+	position: absolute;
+	top:420px;
+	left: 90px;
+	background-color: white;
+	border-radius: 45px;
+	padding:8px 40px 20px 0;
+}
+.motto h1 {
+	font-size: 45px;
+	font-family: serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.top-wrapper-bottom {
+	letter-spacing: 0.5px;
+}
+.motto {
+	padding-bottom: 20px;
+}
+.top-wrapper-bottom p {
+	font-size: 13px;
+	letter-spacing: 3px;
+}
+.contact-btn {
+	color: black;
+	font-family: 'Catamaran', sans-serif;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	display: block;
+	width: 180px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	border: 2px solid #111;
+	border-radius: 4px;
+	line-height: 50px;
+	transition: all .3s;
+}
+.contact-btn:hover {
+	color: white;
+	background-color: black;
+}
+.news-sec-inner {
+	display: flex;
+	height:470px;
+	background-image: url(bottle-caps-1866945_640.jpg);
+  margin-right: 50%;
+  background-size: cover;
+	border-top-right-radius: 100px;
+	position: relative;
+}
+.news-sec-list-side {
+	width: 52%;
+	padding: 75px 0px 0 200px;
+	position: absolute;
+	top:0px;
+	right:-550px;
+}
+.more-link a {
+	font-family: 'Catamaran', sans-serif;
+	position: relative;
+	padding-right: 35px;
+	font-weight: 600;
+	letter-spacing: 0;
+	font-size: 15px;
+	color: black;
+}
+.more-link {
+	text-align: right;
+	display: block;
+}
+.news-list {
+	margin-bottom: 80px;
+}
+.news-sec-list-side ul, ol, li {
+	list-style: none;
+}
+ul {
+	display: block;
+}
+.news-sec-list-side .sec-ttl {
+	margin-bottom: 60px;
+}
+.news-list li {
+	position: relative;
+	margin-bottom: 28px;
+	padding: 20px 0 28px 0;
+	border-bottom: 1px solid #EFEFEF;
+	transition: all 0.8s;
+}
+.jpn {
+	font-size:13px;
+}
+.eng {
+	font-size: 30px;
+	font-weight: 300px;
+}
+.news-date {
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	display: block;
+	width: 10em;
+	margin-bottom: 4px;
+	padding-left: 20px;
+	font-weight: 100;
+	font-size: 13px;
+	opacity: 1;
+	transition: all 0.8s;
+}
+.news-ttl {
+	position: relative;
+	display: inline-block;
+	margin-left: 10em;
+	font-size: 13px;
+	transition: all .3s;
+	color: black;
+}
+.news-tt1:hover {
+	opacity:0.5;
+}
+.footer {
+	text-align:center;
+	font-size:5px;
+	color:#36302d;
+	padding:90px 0 20px 0;
+}
